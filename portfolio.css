@@ -1,0 +1,33 @@
+.logo {
+    max-height: 10vh;
+    background: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  background-color: white;
+    border-radius: 20px;
+}
+
+.navbar-inverse .navbar-header > a {
+    color: transparent;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-header > a:hover,
+.navbar-inverse .navbar-header > a:focus {
+    color: transparent;
+    background-color: transparent; 
+}
+
+.table {
+    padding-top: 5%;
+    align-content: center;
+    width: 60%;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.grow { transition: all 0.5s ease-in-out; }
+.grow:hover { transform: scale(2.0); }

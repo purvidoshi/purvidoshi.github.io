@@ -1,0 +1,38 @@
+
+.resume {
+    padding-top: 5%;
+    align-content: center;
+}
+
+.resume img {
+    margin: auto;
+    display: block;
+    max-width: 800px;
+}
+
+.logo {
+    max-height: 10vh;
+    background: transparent;
+}
+
+.navbar {
+    padding-bottom: 2%;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  background-color: white;
+    border-radius: 20px;
+}
+
+
+.navbar-inverse .navbar-header > a {
+    color: transparent;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-header > a:hover,
+.navbar-inverse .navbar-header > a:focus {
+    color: transparent;
+    background-color: transparent; 
+}
+
