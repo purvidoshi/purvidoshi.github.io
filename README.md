@@ -1,1 +1,0 @@
-# purvidoshi.github.io
