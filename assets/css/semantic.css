@@ -1,0 +1,138 @@
+:root{
+    --white:#FFFFFF;
+    --red            : #B03060;
+    --orange         : #FE9A76;
+    --yellow         : #FFD700;
+    --olive          : #32CD32;
+    --green          : #016936;
+    --teal           : #008080;
+    --blue           : #0E6EB8;
+    --violet         : #EE82EE;
+    --purple         : #B413EC;
+    --pink           : #FF1493;
+    --brown          : #A52A2A;
+    --grey           : #A0A0A0;
+    --black          : #000000;
+}
+
+
+.cover-content {
+  position: absolute;
+  top: 10%;
+  bottom: 20%;
+  left: 5%;
+  right: 5%;
+  z-index: 2;
+  text-align: left;
+}
+
+
+.overlap-swirl {
+    top: 5%;
+    left: 0%;
+    width:100%;
+    height: auto;
+    z-index: 1;
+}
+
+.overlap-signature{
+    height: 200%;
+    width: 200%;
+}
+
+.subtitle{
+  letter-spacing: 0.2em;
+  text-indent: 0%;
+}
+
+.text{
+  letter-spacing: 0.1em;
+  font-size: 1.2em!important;
+}
+
+.light-text{
+  letter-spacing: 0.1em;
+  font-size: 1.2em!important;
+  font-family: 'Lato Light', sans-serif;
+}
+
+.download{
+  color: var(--pink);
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: 'Lato Light', sans-serif;
+}
+
+
+.ui.secondary.pointing.menu{
+  border-color: transparent;
+}
+
+.ui.segment {
+  border-color: transparent!important;
+}
+
+.ui.cards > .square.card{
+  border-radius: 0px;
+  border-color: transparent;
+  box-shadow: 1px 1px 8px 0px #e4e4e5, 0 0 0 1px #e4e4e5;
+  background-image: linear-gradient(45deg, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+}
+
+.ui.cards > .square.card.oracle{
+background-image: linear-gradient(135deg, #ff0844 0%, #ffb199 100%);
+}
+
+.ui.cards > .square.card.om{
+background-image: linear-gradient(225deg, #f6d365 0%, #fda085 100%);
+}
+
+.ui.cards > .square.card.bhangra{
+background-image: linear-gradient(225deg, #96fbc4 0%, #f6d365 100%);
+}
+
+.ui.cards > .square.card.synesthesia{
+background-image: linear-gradient(225deg, #FFC796 0%, #FF6B95 100%);
+}
+
+.ui.cards > .square.card.farnsworth{
+background-image: linear-gradient(330deg, #9face6 0%, #fda085 100%);
+}
+
+.ui.cards > .square.card.pulsification{
+  background-image: linear-gradient(to left, #96fbc4 0%, #9face6 100%);
+}
+
+.ui.cards > .square.card.mall{
+background-image: linear-gradient(to left, #df89b5  0%, #ee609c 100%);
+}
+
+.ui.cards > .square.card.walkie{
+background-image: linear-gradient(45deg, #df89b5 0%, #bfd9fe 100%);
+}
+
+.ui.cards > .square.card.blank{
+  background-image: linear-gradient(315deg, #74ebd5 0%, #9face6 100%);
+}
+
+.ui.cards > .card > .content{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.ui.cards > .card > .content > .header {
+  color: white;
+  font-style: italic;
+  font-family: 'Lato Medium', sans-serif;
+  letter-spacing: 0.05em;
+  font-size: 2em!important;
+}
+.ui.cards > .card > .content > .meta,
+.ui.cards > .card > .content > .description {
+
+}
+
+.oracle{
+  background-image: linear-gradient(45deg, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+}

@@ -1,0 +1,86 @@
+:root{
+    --color:#444444;
+}
+
+
+#signature {
+  width: 60%;
+  opacity: 0;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: -10%;
+}
+
+
+#signature.animate {
+  opacity: 1;
+}
+
+#signature path {
+  fill: none;
+  stroke: var(--color); /* stroke gradient fill is in html*/
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-dashoffset: 0;
+}
+
+.animate .stroke-p {
+  stroke-dasharray: 1650;
+  animation: write1 4s infinite ease-in;
+}
+
+.animate .stroke-urviD {
+  stroke-dasharray: 1500;
+  animation: write2 4s infinite ease-in-out;
+}
+
+.animate .stroke-oshi {
+  stroke-dasharray: 500;
+  animation: write3 4s infinite ease-in-out;
+}
+
+.animate .stroke-dot {
+  stroke-dasharray: 10;
+  animation: write4 4s infinite ease-out;
+}
+
+/*  keyframes */
+
+@keyframes write1 {
+  0% {
+    stroke-dashoffset: 1650;
+  }
+  35% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes write2 {
+  0%, 35% {
+    stroke-dashoffset: 1500;
+  }
+  70% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes write3 {
+  0%, 70% {
+    stroke-dashoffset: 500;
+  }
+  90% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes write4 {
+  0%, 90% {
+    stroke-dashoffset: 10;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
