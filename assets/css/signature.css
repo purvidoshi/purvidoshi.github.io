@@ -29,22 +29,22 @@
 
 .animate .stroke-p {
   stroke-dasharray: 1650;
-  animation: write1 4s infinite ease-in;
+  animation: write1 4s 1 ease-in;
 }
 
 .animate .stroke-urviD {
   stroke-dasharray: 1500;
-  animation: write2 4s infinite ease-in-out;
+  animation: write2 4s 1 ease-in-out;
 }
 
 .animate .stroke-oshi {
   stroke-dasharray: 500;
-  animation: write3 4s infinite ease-in-out;
+  animation: write3 4s 1 ease-in-out;
 }
 
 .animate .stroke-dot {
   stroke-dasharray: 10;
-  animation: write4 4s infinite ease-out;
+  animation: write4 4s 1 ease-out;
 }
 
 /*  keyframes */
