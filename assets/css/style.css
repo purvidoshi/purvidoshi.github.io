@@ -22,7 +22,7 @@
   --black          : #000000;
   --darkgrey       : #444444;
   --coral          : #f72f5a;
-  --lightgrey      : #f0f0f0b7;
+  --lightgrey      : #cfcfcf;
   --navy           : #262262;
   --turquoise      : #5CC5C2;
   --font           : "Lato", sans-serif;
@@ -301,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: var(--navy);
   padding: 10px 20px;
-  font-weight: 700;
+  font-weight: 500;
   outline: none;
   transition: 0.3s;
 }
